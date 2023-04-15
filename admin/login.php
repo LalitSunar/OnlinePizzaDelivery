@@ -88,7 +88,7 @@
 
 
     <?php
-        if(isset($_GET['loginsuccess']) && $_GET['loginsuccess']=="false"){
+        if(isset($_GET['loginsuccess']) && $_GET['loginsuccess']=="true"){
         echo '<div class="alert alert-warning alert-dismissible fade show" role="alert">
                 <strong>Warning!</strong> Invalid Credentials
                 <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span></button>
